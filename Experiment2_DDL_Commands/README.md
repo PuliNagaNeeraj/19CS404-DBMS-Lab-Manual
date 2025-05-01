@@ -144,12 +144,12 @@ INSERT INTO Books(ISBN, Title, Author, Publisher, YearPublished)
 SELECT ISBN, Title, Author, Publisher, YearPublished 
 FROM Out_of_print_books;
 
-*Output:*
+### *Output:*
 
 ![image](https://github.com/user-attachments/assets/cbec7eb2-d1e6-4204-9486-203ef3c32e2c)
 
 
-*Question 4*
+### *Question 4*
 
 Create a table named Departments with the following columns:
 
@@ -160,7 +160,7 @@ DepartmentID INTEGER,
 DepartmentName TEXT);
 
 
-*Output:*
+### *Output:*
 ![image](https://github.com/user-attachments/assets/3c02ebb4-0350-4b0b-b74a-3611066239c4)
 
 *Question 5*
@@ -173,7 +173,7 @@ ALTER TABLE employee ADD COLUMN manager_id INTEGER DEFAULT NULL;
 ### Output:
 ![image](https://github.com/user-attachments/assets/aa64eeea-195a-4162-91ea-0dd7a32aa315)
 
-*Question 6*
+### *Question 6*
 
 Insert all customers from Old_customers into Customers
 
@@ -187,7 +187,7 @@ FROM Old_customers;6
 
 ![image](https://github.com/user-attachments/assets/5ad04860-aab6-4066-9138-47629ff8a49f)
 
-*Question 7*
+### *Question 7*
 
  ---Write a SQL query to Add a new column named "discount" with the data type DECIMAL(5,2) to the "customer" table.
 
@@ -202,7 +202,7 @@ ALTER TABLE customer  ADD COLUMN discount DECIMAL(5,2);
 
 ![image](https://github.com/user-attachments/assets/fc9f743c-666b-401b-84c5-983bd21a4926)
 
-*Question 8*
+### *Question 8*
 
 Create a table named Members with the following columns:
 
