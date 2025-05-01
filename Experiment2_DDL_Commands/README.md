@@ -238,7 +238,7 @@ add column birth_date timestamp;
 
 ![image](https://github.com/user-attachments/assets/9eb90475-b45d-40ff-aa44-3813174201ba)
 
-*Question 10*
+### *Question 10*
 
 Insert the below data into the Student_details table, allowing the Subject and MARKS columns to take their default values.
 
