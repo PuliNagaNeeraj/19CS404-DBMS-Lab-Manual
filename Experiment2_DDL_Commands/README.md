@@ -111,7 +111,7 @@ Write a SQL query to modify the Student_details table by adding a new column Ema
 ALTER TABLE  Student_details ADD COLUMN Email VARCHAR(50);
 ALTER TABLE  Student_details ADD COLUMN MARKS DEFAULT '0';
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/a2ad517d-78c6-4489-9474-ae83f64e32ce)
 
@@ -129,7 +129,7 @@ phone TEXT  NOT NULL,
 CHECK (LENGTH(phone)>=10)
 );
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/4232e1e8-adc2-4bcc-aecc-6cb871978988)
 
@@ -170,7 +170,7 @@ Write an SQL query to add two new columns, department_id and manager_id, to the 
 ALTER TABLE employee ADD COLUMN department_id INTEGER;
 ALTER TABLE employee ADD COLUMN manager_id INTEGER DEFAULT NULL;
 
-*Output:*
+### Output:
 ![image](https://github.com/user-attachments/assets/aa64eeea-195a-4162-91ea-0dd7a32aa315)
 
 *Question 6*
@@ -183,7 +183,7 @@ INSERT INTO Customers(CustomerID, Name, Address, Email)
 SELECT CustomerID, Name, Address, Email
 FROM Old_customers;6
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/5ad04860-aab6-4066-9138-47629ff8a49f)
 
@@ -198,7 +198,7 @@ customer_id | cust_name | city | grade | salesman_id -------------+-------------
 ALTER TABLE customer  ADD COLUMN discount DECIMAL(5,2);
 
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/fc9f743c-666b-401b-84c5-983bd21a4926)
 
@@ -214,7 +214,7 @@ MemberName TEXT,
 JoinDate DATE
 );
 
-## *Output:*
+### *Output:*
 
 ![image](https://github.com/user-attachments/assets/0b0a2862-476c-4930-be64-9efc6e273acb)
 
@@ -234,7 +234,7 @@ Sample table: customer
   alter table customer
 add column birth_date timestamp;
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/9eb90475-b45d-40ff-aa44-3813174201ba)
 
@@ -251,7 +251,7 @@ Note: The Subject and MARKS columns will use their default values.
 insert into Student_details(RollNo,Name,Gender)
 values(204,"Samuel Black","M");
 
-*Output:*
+### Output:
 
 ![image](https://github.com/user-attachments/assets/9d1f9460-2ad8-4479-99d2-7a8a2d5f5797)
 
