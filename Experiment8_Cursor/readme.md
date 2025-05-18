@@ -1,5 +1,5 @@
 # Experiment 8: PL/SQL Cursor Programs
-#### Name :    Puli Naga Neeraj
+### Name :    Puli Naga Neeraj
 ### Reg No : 212223240130
 ## AIM
 To write and execute PL/SQL programs using cursors and exception handling to manage runtime errors effectively and display appropriate messages.
